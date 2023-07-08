@@ -32,5 +32,10 @@ public class Device {
         this.serialNumber = serialNumber;
     }
 
+    @Override
+    public String toString(){
+        return "Устройство: производитель " + manufacturer + " цена " + price + " серийный номер " + serialNumber;
+    }
+
 
 }
